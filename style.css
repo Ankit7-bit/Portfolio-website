@@ -1,0 +1,146 @@
+     body {
+            background-color: wheat;  
+            color: #1a1a1a;             
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+        .Main-heading {
+            text-align: center;
+            padding: 10px;
+           
+            color: black;
+            border: solid black;
+            font-size: 30px;
+        }
+
+        .container {
+            display: flex;
+            border: 2px;
+            justify-content: center;
+            align-items: center;
+            border-bottom: black;
+        }
+
+        .item {
+            margin: 20px;;
+        }
+        .container .item a {
+            color: blue;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .container .item a:hover {
+            color: red; 
+        }
+         
+        .description {
+            border-radius: 10px;
+            border:solid black;
+            padding: 15px;
+            margin: 10px 0;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+        }
+
+        #projects {
+            border:solid black;
+            padding: 15px;
+            margin: 10px 0;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            box-shadow:#0d0c0a;
+        }
+
+        h2:hover{
+            background-color: green;
+            color: white;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+        
+        #Education {
+            border: solid black;
+            padding: 20px;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        th, td {
+            border: solid #999;
+            padding: 10px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        th {
+           
+            font-weight: bold;
+        }
+
+        tr {
+            background-color: lightgrey;
+        }
+
+        tr:hover {
+            background-color: #00c80a;
+        } 
+
+        li:checked {
+            color: #00c80a;
+        }
+        #internship {
+            border: solid black;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        
+        #Technical-Skills {
+            border:solid black;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #soft-skills{
+            border:solid black;
+            padding: 15px;
+            margin: 10px 0;
+           
+        }
+        #Languages {
+            border:solid black;
+            padding: 15px;
+            margin: 10px 0;
+            
+        }
+        #certifications{
+            padding: 15px;
+            margin: 10px 0;
+            border: solid black;
+        }
+        footer {
+            border: white;
+            padding: 10px;
+            color: black;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 20px;
+          
+        }
+
+
+        .footer-container {
+           display: flex;
+           flex-wrap: wrap;
+        }
+
+        .links a {
+            margin: 10px;
+            color: blue;
+        }
